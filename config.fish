@@ -4,14 +4,18 @@ end
 
 set PATH /opt/homebrew/bin $PATH
 alias cat='bat'
-alias vi='nvim'
-alias vim='nvim'
+alias ls='li'
+alias gcz='czg'
+alias gcza='czg ai -N=3'
+alias gczb='czg break'
+# alias vi='nvim'
+# alias vim='nvim'
 
-function yy
+function ycd
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
 	yazi $argv --cwd-file="$tmp"
-	if set cwd (cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
-		cd -- "$cwd"
+	if set cwd (command cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+		builtin cd -- "$cwd"
 	end
 	rm -f -- "$tmp"
 end
