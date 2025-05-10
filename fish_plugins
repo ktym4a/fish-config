@@ -6,3 +6,5 @@ plttn/fish-eza
 specter119/fish-plugin-homebrew
 asim-tahir/docker-compose.fish
 jorgebucaran/hydro
+decors/fish-ghq
+patrickf1/fzf.fish
