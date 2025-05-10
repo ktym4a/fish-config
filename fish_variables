@@ -19,7 +19,7 @@ SETUVAR --export EZA_LO_OPTIONS:\x2d\x2doneline
 SETUVAR --export EZA_LT_OPTIONS:\x2d\x2dtree\x1e\x2d\x2dlevel
 SETUVAR --export EZA_L_OPTIONS:\x1d
 SETUVAR --export EZA_STANDARD_OPTIONS:\x2d\x2dgroup\x1e\x2d\x2dheader\x1e\x2d\x2dgroup\x2ddirectories\x2dfirst
-SETUVAR --export FZF_DEFAULT_OPTS:\x0a\x20\x20\x2d\x2dheight\x2090\x25\x20\x2d\x2dreverse\x20\x2d\x2dborder\x20\x20\x20\x2d\x2dprompt\x3d\x27\u279c\x20\x20\x27\x20\x2d\x2dmargin\x3d0\x2c1\x20\x2d\x2dinline\x2dinfo\x20\x20\x20\x2d\x2dtiebreak\x3dindex\x20\x2d\x2dno\x2dmouse\x20\x2d\x2dfilepath\x2dword\x20\x20\x20\x2d\x2dcolor\x3dbg\x2b\x3a\x23313244\x2cbg\x3a\x231e1e2e\x2cspinner\x3a\x23f5e0dc\x2chl\x3a\x23f38ba8\x20\x20\x20\x2d\x2dcolor\x3dfg\x3a\x23cdd6f4\x2cheader\x3a\x23f38ba8\x2cinfo\x3a\x23cba6f7\x2cpointer\x3a\x23f5e0dc\x20\x20\x20\x2d\x2dcolor\x3dmarker\x3a\x23f5e0dc\x2cfg\x2b\x3a\x23cdd6f4\x2cprompt\x3a\x23cba6f7\x2chl\x2b\x3a\x23f38ba8
+SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dcolor\x3dfg\x3a\x23CDD6F4\x2cheader\x3a\x23F38BA8\x2cinfo\x3a\x23CBA6F7\x2cpointer\x3a\x23F5E0DC\x20\x2d\x2dcolor\x3dmarker\x3a\x23B4BEFE\x2cfg\x2b\x3a\x23CDD6F4\x2cprompt\x3a\x23CBA6F7\x2chl\x2b\x3a\x23F38BA8\x20\x2d\x2dcolor\x3dselected\x2dbg\x3a\x2345475A\x20\x2d\x2dcolor\x3dborder\x3a\x23313244\x2clabel\x3a\x23CDD6F4
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/ktym4a/\x2elocal/share/z/data
@@ -45,7 +45,7 @@ SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _hydro_git_14160:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x20
 SETUVAR _hydro_git_29482:main\x20
 SETUVAR _hydro_git_32628:dependabot/npm_and_yarn/dependencies\x2d42940ffe1d\x20
-SETUVAR _hydro_git_34903:main\x20
+SETUVAR _hydro_git_34903:main\u2022\x20
 SETUVAR _hydro_git_35113:feature/add\x2dcost\x2dtemplate\x2dAZ\x2d12841\u2022\x20
 SETUVAR _hydro_git_35154:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x20
 SETUVAR _hydro_git_35174:fix/ghg_emission_index_fe_bugs\u2022\x20
