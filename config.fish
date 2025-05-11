@@ -8,6 +8,7 @@ alias ls='li'
 alias gcz='czg'
 alias gcza='czg ai -N=3'
 alias gczb='czg break'
+alias lg='lazygit'
 # alias vi='nvim'
 # alias vim='nvim'
 
