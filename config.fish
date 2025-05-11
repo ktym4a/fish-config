@@ -3,14 +3,16 @@ if status is-interactive
 end
 
 set PATH /opt/homebrew/bin $PATH
+set PATH ~/.local/share/mise/installs/lua/5.1/luarocks/bin $PATH
+
 alias cat='bat'
 alias ls='li'
 alias gcz='czg'
 alias gcza='czg ai -N=3'
 alias gczb='czg break'
 alias lg='lazygit'
-# alias vi='nvim'
-# alias vim='nvim'
+alias vi='nvim'
+alias vim='nvim'
 
 function ycd
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
