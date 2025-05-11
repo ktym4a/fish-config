@@ -20,6 +20,25 @@ function ycd
 	rm -f -- "$tmp"
 end
 
+function cgi
+    set -l templates (gibo list | fzf \
+        --multi \
+        --preview 'gibo dump {} | bat --style=numbers --color=always' \
+        --prompt="Select .gitignore templates > ")
+
+    if test -z "$templates"
+        echo "No template selected."
+        return 1
+    end
+
+    # Clear or create .gitignore
+    echo -n "" > .gitignore
+
+	gibo dump $templates >> .gitignore
+
+    echo ".gitignore created with: $templates"
+end
+
 set --global hydro_color_prompt a6e3a1
 set --global hydro_color_error f38ba8
 set --global hydro_color_pwd b4befe

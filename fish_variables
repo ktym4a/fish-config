@@ -45,13 +45,13 @@ SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ecatppuccin/fish\x1ejethrokuan/z\x
 SETUVAR _fisher_specter119_2F_fish_2D_plugin_2D_homebrew_files:\x7e/\x2econfig/fish/functions/bcubc\x2efish\x1e\x7e/\x2econfig/fish/functions/bcubo\x2efish\x1e\x7e/\x2econfig/fish/functions/brewp\x2efish\x1e\x7e/\x2econfig/fish/functions/brews\x2efish\x1e\x7e/\x2econfig/fish/functions/brewsp\x2efish\x1e\x7e/\x2econfig/fish/functions/bubc\x2efish\x1e\x7e/\x2econfig/fish/functions/bubo\x2efish\x1e\x7e/\x2econfig/fish/functions/bubu\x2efish\x1e\x7e/\x2econfig/fish/functions/buf\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/brew\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _hydro_git_14160:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x20
+SETUVAR _hydro_git_14659:main\u2022\x20
 SETUVAR _hydro_git_29482:main\x20
 SETUVAR _hydro_git_32628:dependabot/npm_and_yarn/dependencies\x2d42940ffe1d\x20
 SETUVAR _hydro_git_35113:feature/add\x2dcost\x2dtemplate\x2dAZ\x2d12841\u2022\x20
 SETUVAR _hydro_git_35154:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x20
 SETUVAR _hydro_git_35174:fix/ghg_emission_index_fe_bugs\u2022\x20
 SETUVAR _hydro_git_35199:fix/ghg_emission_index_fe_bugs\u2022\x20
-SETUVAR _hydro_git_38686:main\u2022\x20
 SETUVAR _hydro_git_40897:fix/ghg_emission_index_fe_bugs\u2022\x20
 SETUVAR _hydro_git_54131:main\x20
 SETUVAR _hydro_git_54156:main\x20
@@ -73,8 +73,6 @@ SETUVAR _hydro_git_57566:main\x20
 SETUVAR _hydro_git_57590:main\x20
 SETUVAR _hydro_git_58890:main\u2022\x20
 SETUVAR _hydro_git_911:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x20
-SETUVAR _hydro_git_96126:main\x20
-SETUVAR _hydro_git_97144:main\x20\u21911\x20
 SETUVAR --export fifc_editor:nvim
 SETUVAR fifc_open_keybinding:ctrl\x2do
 SETUVAR fish_color_autosuggestion:6c7086
@@ -118,5 +116,6 @@ SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
 SETUVAR fish_prompt_pwd_dir_length:1
+SETUVAR --export fzf_diff_highlighter:delta\x1e\x2d\x2dpaging\x3dnever
 SETUVAR nvm_default_packages:pnpm
 SETUVAR nvm_default_version:v20\x2e15\x2e1
