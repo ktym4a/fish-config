@@ -7,9 +7,8 @@ set PATH ~/.local/share/mise/installs/lua/5.1/luarocks/bin $PATH
 
 alias cat='bat'
 alias ls='li'
-alias gcz='czg'
-alias gcza='czg ai -N=3'
-alias gczb='czg break'
+alias gcza='gcz ai -N=3'
+alias gczb='gcz break'
 alias lg='lazygit'
 alias vi='nvim'
 alias vim='nvim'
