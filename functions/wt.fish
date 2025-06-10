@@ -33,6 +33,78 @@ function wt --description "Git worktree manager with advanced features"
         echo "  wt main                         - Switch to main branch"
     end
 
+    # Define subcommand help functions
+    function __wt_add_help
+        echo "wt add - Create new branch and worktree"
+        echo ""
+        echo "Usage:"
+        echo "  wt add <branch> [options]"
+        echo ""
+        echo "Options:"
+        echo "  -b, --base <branch>   Base branch (default: main)"
+        echo "  --sync                Sync staged/modified/untracked files from current branch"
+        echo "  --no-hook             Skip hook execution (.wt_hook.fish)"
+        echo "  -h, --help            Show this help message"
+        echo ""
+        echo "Examples:"
+        echo "  wt add feature/new-ui                    - Create from main branch"
+        echo "  wt add hotfix/bug-123 -b develop        - Create from develop branch"
+        echo "  wt add feature/continue --sync          - Create with current changes"
+    end
+
+    function __wt_remove_help
+        echo "wt remove - Remove worktree and branch"
+        echo ""
+        echo "Usage:"
+        echo "  wt remove [<branch>] [options]"
+        echo ""
+        echo "Options:"
+        echo "  -h, --help            Show this help message"
+        echo ""
+        echo "Description:"
+        echo "  Remove a worktree and its associated branch."
+        echo "  If no branch is specified, interactive selection with fzf is used."
+        echo "  Protected branches (main/master) and current branch cannot be removed."
+        echo ""
+        echo "Examples:"
+        echo "  wt remove                      - Interactive selection"
+        echo "  wt remove feature/old-ui       - Remove specific branch"
+    end
+
+    function __wt_list_help
+        echo "wt list - List all worktrees"
+        echo ""
+        echo "Usage:"
+        echo "  wt list [options]"
+        echo ""
+        echo "Options:"
+        echo "  -h, --help            Show this help message"
+        echo ""
+        echo "Description:"
+        echo "  Display all worktrees with their status and last commit."
+    end
+
+    function __wt_clean_help
+        echo "wt clean - Clean up stale worktrees"
+        echo ""
+        echo "Usage:"
+        echo "  wt clean [options]"
+        echo ""
+        echo "Options:"
+        echo "  -n, --dry-run         Show what would be removed"
+        echo "  --days <n>            Remove worktrees older than n days (default: 30)"
+        echo "  -h, --help            Show this help message"
+        echo ""
+        echo "Description:"
+        echo "  Remove worktrees that haven't been modified for the specified number of days."
+        echo "  Protected branches (main/master) and current branch are never removed."
+        echo ""
+        echo "Examples:"
+        echo "  wt clean                       - Remove worktrees older than 30 days"
+        echo "  wt clean --days 7              - Remove worktrees older than 7 days"
+        echo "  wt clean --dry-run             - Preview what would be removed"
+    end
+
     # Parse global options - stop at first non-option argument
     argparse -s 'h/help' 'v/verbose' 'q/quiet' -- $argv
     or return 1
@@ -264,8 +336,14 @@ function __wt_add
     set -l quiet $argv[-1]
     
     # Parse add-specific options
-    argparse 'b/base=' 'no-hook' 'sync' -- $actual_argv
+    argparse 'b/base=' 'no-hook' 'sync' 'h/help' -- $actual_argv
     or return 1
+    
+    # Handle help flag
+    if set -ql _flag_help
+        __wt_add_help
+        return 0
+    end
     
     # Get branch name from remaining arguments after argparse
     set -l branch_name $argv[1]
@@ -449,7 +527,17 @@ function __wt_remove
     set -l verbose $argv[-2]
     set -l quiet $argv[-1]
     
-    set -l branch_name $actual_argv[1]
+    # Parse remove-specific options
+    argparse 'h/help' -- $actual_argv
+    or return 1
+    
+    # Handle help flag
+    if set -ql _flag_help
+        __wt_remove_help
+        return 0
+    end
+    
+    set -l branch_name $argv[1]
     
     # Get current branch
     set -l current_branch (git branch --show-current 2>/dev/null)
@@ -613,6 +701,16 @@ function __wt_list
     set -l verbose $argv[-2]
     set -l quiet $argv[-1]
     
+    # Parse list-specific options
+    argparse 'h/help' -- $actual_argv
+    or return 1
+    
+    # Handle help flag
+    if set -ql _flag_help
+        __wt_list_help
+        return 0
+    end
+    
     # Get worktree list
     set -l worktrees (git worktree list 2>/dev/null)
     if test -z "$worktrees"
@@ -649,8 +747,14 @@ function __wt_clean
     set -l quiet $argv[-1]
     
     # Parse clean-specific options
-    argparse 'n/dry-run' 'days=' -- $actual_argv
+    argparse 'n/dry-run' 'days=' 'h/help' -- $actual_argv
     or return 1
+    
+    # Handle help flag
+    if set -ql _flag_help
+        __wt_clean_help
+        return 0
+    end
     
     set -l dry_run (set -ql _flag_dry_run; and echo true; or echo false)
     set -l days (set -ql _flag_days; and echo $_flag_days; or echo 30)
