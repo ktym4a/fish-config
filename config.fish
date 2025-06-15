@@ -12,6 +12,7 @@ alias czgb='czg break'
 alias lg='lazygit'
 alias vi='nvim'
 alias vim='nvim'
+alias yolo='claude --dangerously-skip-permissions'
 
 function ycd
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
