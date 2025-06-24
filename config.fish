@@ -13,6 +13,7 @@ alias lg='lazygit'
 alias vi='nvim'
 alias vim='nvim'
 alias yolo='claude --dangerously-skip-permissions'
+alias claude="~/.claude/local/claude"
 
 function ycd
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
@@ -58,3 +59,4 @@ set --global hydro_symbol_prompt "❱❱"
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
+
