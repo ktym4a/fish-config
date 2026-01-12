@@ -1,19 +1,20 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    # Theme
+    fish_config theme choose "Catppuccin Mocha"
 end
 
 set PATH /opt/homebrew/bin $PATH
 set PATH ~/.local/share/mise/installs/lua/5.1/luarocks/bin $PATH
+set PATH ~/.local/bin $PATH
 
 alias cat='bat'
 alias ls='li'
-alias czga='czg ai -N=3'
-alias czgb='czg break'
+alias czga='npx czg ai -N=3'
+alias czgb='npx czg break'
 alias lg='lazygit'
 alias vi='nvim'
 alias vim='nvim'
 alias yolo='claude --dangerously-skip-permissions'
-alias claude="~/.claude/local/claude"
 
 function ycd
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
@@ -59,4 +60,3 @@ set --global hydro_symbol_prompt "❱❱"
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
-

@@ -32,12 +32,12 @@ SETUVAR --export __FISH_EZA_EXPANDED:a\x1ed\x1ei\x1eid\x1eaa\x1ead\x1eai\x1eaid\
 SETUVAR --export __FISH_EZA_EXPANDED_OPT_NAME:LA\x1eLD\x1eLI\x1eLID\x1eLAA\x1eLAD\x1eLAI\x1eLAID\x1eLAAD\x1eLAAI\x1eLAAID
 SETUVAR --export __FISH_EZA_OPT_NAMES:EZA_L_OPTIONS\x1eEZA_LA_OPTIONS\x1eEZA_LD_OPTIONS\x1eEZA_LI_OPTIONS\x1eEZA_LID_OPTIONS\x1eEZA_LAA_OPTIONS\x1eEZA_LAD_OPTIONS\x1eEZA_LAI_OPTIONS\x1eEZA_LAID_OPTIONS\x1eEZA_LAAD_OPTIONS\x1eEZA_LAAI_OPTIONS\x1eEZA_LAAID_OPTIONS\x1eEZA_LL_OPTIONS\x1eEZA_LG_OPTIONS\x1eEZA_LE_OPTIONS\x1eEZA_LT_OPTIONS\x1eEZA_LC_OPTIONS\x1eEZA_LO_OPTIONS
 SETUVAR --export __FISH_EZA_SORT_OPTIONS:name\x1e\x2ename\x1esize\x1eext\x1emod\x1eold\x1eacc\x1ecr\x1einode
-SETUVAR __fish_initialized:3800
+SETUVAR __fish_initialized:4300
 SETUVAR _fisher_asim_2D_tahir_2F_docker_2D_compose_2E_fish_files:\x7e/\x2econfig/fish/functions/_docker\x2dcompose\x2eabbrs\x2efish\x1e\x7e/\x2econfig/fish/functions/_docker\x2dcompose\x2einit\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/docker\x2dcompose\x2efish
-SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Latte\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
+SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
 SETUVAR _fisher_decors_2F_fish_2D_ghq_files:\x7e/\x2econfig/fish/functions/__ghq_repository_search\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/ghq_key_bindings\x2efish\x1e\x7e/\x2econfig/fish/completions/ghq\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
-SETUVAR _fisher_jhillyerd_2F_plugin_2D_git_files:\x7e/\x2econfig/fish/functions/__git\x2ebranch_has_wip\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2ecurrent_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2edefault_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2edestroy\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2einit\x2efish\x1e\x7e/\x2econfig/fish/functions/gbage\x2efish\x1e\x7e/\x2econfig/fish/functions/gbda\x2efish\x1e\x7e/\x2econfig/fish/functions/gdv\x2efish\x1e\x7e/\x2econfig/fish/functions/gignored\x2efish\x1e\x7e/\x2econfig/fish/functions/glp\x2efish\x1e\x7e/\x2econfig/fish/functions/grename\x2efish\x1e\x7e/\x2econfig/fish/functions/grt\x2efish\x1e\x7e/\x2econfig/fish/functions/gtest\x2efish\x1e\x7e/\x2econfig/fish/functions/gtl\x2efish\x1e\x7e/\x2econfig/fish/functions/gunwip\x2efish\x1e\x7e/\x2econfig/fish/functions/gwip\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/git\x2efish
+SETUVAR _fisher_jhillyerd_2F_plugin_2D_git_files:\x7e/\x2econfig/fish/functions/__git\x2ebranch_has_wip\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2ecurrent_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2edefault_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2edelete_branches\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2edestroy\x2efish\x1e\x7e/\x2econfig/fish/functions/__git\x2einit\x2efish\x1e\x7e/\x2econfig/fish/functions/gbage\x2efish\x1e\x7e/\x2econfig/fish/functions/gbda\x2efish\x1e\x7e/\x2econfig/fish/functions/gdv\x2efish\x1e\x7e/\x2econfig/fish/functions/gignored\x2efish\x1e\x7e/\x2econfig/fish/functions/glp\x2efish\x1e\x7e/\x2econfig/fish/functions/grename\x2efish\x1e\x7e/\x2econfig/fish/functions/grt\x2efish\x1e\x7e/\x2econfig/fish/functions/gtest\x2efish\x1e\x7e/\x2econfig/fish/functions/gtl\x2efish\x1e\x7e/\x2econfig/fish/functions/gunwip\x2efish\x1e\x7e/\x2econfig/fish/functions/gwip\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/git\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_hydro_files:\x7e/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e\x7e/\x2econfig/fish/functions/fish_prompt\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/hydro\x2efish
 SETUVAR _fisher_ktym4a_2F_wtm_2E_fish_files:\x7e/\x2econfig/fish/functions/wtm\x2efish\x1e\x7e/\x2econfig/fish/completions/wtm\x2efish
@@ -47,6 +47,11 @@ SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ecatppuccin/fish\x1ejethrokuan/z\x
 SETUVAR _fisher_specter119_2F_fish_2D_plugin_2D_homebrew_files:\x7e/\x2econfig/fish/functions/bcubc\x2efish\x1e\x7e/\x2econfig/fish/functions/bcubo\x2efish\x1e\x7e/\x2econfig/fish/functions/brewp\x2efish\x1e\x7e/\x2econfig/fish/functions/brews\x2efish\x1e\x7e/\x2econfig/fish/functions/brewsp\x2efish\x1e\x7e/\x2econfig/fish/functions/bubc\x2efish\x1e\x7e/\x2econfig/fish/functions/bubo\x2efish\x1e\x7e/\x2econfig/fish/functions/bubu\x2efish\x1e\x7e/\x2econfig/fish/functions/buf\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/brew\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _hydro_git_14160:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x20
+SETUVAR _hydro_git_16178:feature/report\x2dnavi\x2dnikola\x20
+SETUVAR _hydro_git_20727:feature/ai\x2dagent\x2dselect\x2dui\u2022\x20
+SETUVAR _hydro_git_24375:feature/solution\x2ddetail\x2dto\x2dreact\x2dui\x2dcomponents\x20
+SETUVAR _hydro_git_27856:feature/esg_setting_table_questions_kokoe8\x20
+SETUVAR _hydro_git_28835:feature/ai\x2dagent\x2dselect\x2dui\u2022\x20
 SETUVAR _hydro_git_29482:main\x20
 SETUVAR _hydro_git_31182:feat/wt\x2dcomple\u2022\x20
 SETUVAR _hydro_git_32628:dependabot/npm_and_yarn/dependencies\x2d42940ffe1d\x20
@@ -56,9 +61,12 @@ SETUVAR _hydro_git_35154:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x2
 SETUVAR _hydro_git_35174:fix/ghg_emission_index_fe_bugs\u2022\x20
 SETUVAR _hydro_git_35199:fix/ghg_emission_index_fe_bugs\u2022\x20
 SETUVAR _hydro_git_40897:fix/ghg_emission_index_fe_bugs\u2022\x20
+SETUVAR _hydro_git_45287:feature/solution\x2ddetail\x2dto\x2dreact\x2dui\x2dcomponents\u2022\x20
+SETUVAR _hydro_git_45961:feature/upgrade\x2dphp83\x2dlaravel12\x20
 SETUVAR _hydro_git_46433:main\u2022\x20
 SETUVAR _hydro_git_54131:main\x20
 SETUVAR _hydro_git_54156:main\x20
+SETUVAR _hydro_git_54569:main\u2022\x20
 SETUVAR _hydro_git_54762:main\u2022\x20
 SETUVAR _hydro_git_54784:main\u2022\x20
 SETUVAR _hydro_git_55047:fix/ghg_emission_index_fe_bugs\u2022\x20
@@ -74,52 +82,28 @@ SETUVAR _hydro_git_56783:main\u2022\x20
 SETUVAR _hydro_git_56810:main\u2022\x20
 SETUVAR _hydro_git_57590:main\x20
 SETUVAR _hydro_git_58890:main\u2022\x20
+SETUVAR _hydro_git_61289:feature/esg_setting_table_questions_kokoe8\x20
+SETUVAR _hydro_git_65748:feature/ai\x2dagent\x2dselect\x2dui\x20
+SETUVAR _hydro_git_66472:feature/ai\x2dagent\x2dselect\x2dui\u2022\x20
 SETUVAR _hydro_git_66658:main\u2022\x20
+SETUVAR _hydro_git_6710:feature/remove\x2dmessage\x2dthread\u2022\x20
+SETUVAR _hydro_git_70048:master\x20
+SETUVAR _hydro_git_73530:fix/fixed\x2dwith\x2demoji\u2022\x20
+SETUVAR _hydro_git_778:feature/esg_setting_table_questions_kokoe8\x20
 SETUVAR _hydro_git_80729:main\u2022\x20
+SETUVAR _hydro_git_82757:feature/updatable\x2dfactors\x2dsimilar\x2dmatch\u2022\x20
+SETUVAR _hydro_git_88711:feature/remove\x2dmessage\x2dthread\u2022\x20
+SETUVAR _hydro_git_90692:develop\u2022\x20
 SETUVAR _hydro_git_911:feature/ai\x2docr\x2dmultiple\x2dfe\x2dtooltip\u2022\x20
+SETUVAR _hydro_git_91733:feature/upgrade\x2dphp83\x2dlaravel12\u2022\x20
+SETUVAR _hydro_git_95953:feature/upgrade\x2dphp83\x2dlaravel12\u2022\x20
+SETUVAR _hydro_git_96797:feature/buildDev7\x20
 SETUVAR --export fifc_editor:nvim
 SETUVAR fifc_open_keybinding:ctrl\x2do
-SETUVAR fish_color_autosuggestion:6c7086
-SETUVAR fish_color_cancel:f38ba8
-SETUVAR fish_color_command:89b4fa
-SETUVAR fish_color_comment:7f849c
-SETUVAR fish_color_cwd:f9e2af
-SETUVAR fish_color_cwd_root:red
-SETUVAR fish_color_end:fab387
-SETUVAR fish_color_error:f38ba8
-SETUVAR fish_color_escape:eba0ac
-SETUVAR fish_color_gray:6c7086
-SETUVAR fish_color_history_current:\x2d\x2dbold
-SETUVAR fish_color_host:89b4fa
-SETUVAR fish_color_host_remote:a6e3a1
-SETUVAR fish_color_keyword:f38ba8
-SETUVAR fish_color_normal:cdd6f4
-SETUVAR fish_color_operator:f5c2e7
-SETUVAR fish_color_option:a6e3a1
-SETUVAR fish_color_param:f2cdcd
-SETUVAR fish_color_quote:a6e3a1
-SETUVAR fish_color_redirection:f5c2e7
-SETUVAR fish_color_search_match:\x2d\x2dbackground\x3d313244
-SETUVAR fish_color_selection:\x2d\x2dbackground\x3d313244
-SETUVAR fish_color_status:f38ba8
-SETUVAR fish_color_user:94e2d5
-SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR --export fish_greeting:\x1d
 SETUVAR fish_key_bindings:fish_default_key_bindings
-SETUVAR fish_pager_color_background:\x1d
-SETUVAR fish_pager_color_completion:cdd6f4
-SETUVAR fish_pager_color_description:6c7086
-SETUVAR fish_pager_color_prefix:f5c2e7
-SETUVAR fish_pager_color_progress:6c7086
-SETUVAR fish_pager_color_secondary_background:\x1d
-SETUVAR fish_pager_color_secondary_completion:\x1d
-SETUVAR fish_pager_color_secondary_description:\x1d
-SETUVAR fish_pager_color_secondary_prefix:\x1d
-SETUVAR fish_pager_color_selected_background:\x1d
-SETUVAR fish_pager_color_selected_completion:\x1d
-SETUVAR fish_pager_color_selected_description:\x1d
-SETUVAR fish_pager_color_selected_prefix:\x1d
 SETUVAR fish_prompt_pwd_dir_length:1
+SETUVAR fish_user_paths:/opt/homebrew/opt/libpq/bin
 SETUVAR --export fzf_diff_highlighter:delta\x1e\x2d\x2dpaging\x3dnever
 SETUVAR nvm_default_packages:pnpm
 SETUVAR nvm_default_version:v20\x2e15\x2e1
